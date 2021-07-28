@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.entity;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
