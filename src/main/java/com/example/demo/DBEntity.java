@@ -13,9 +13,7 @@ import javax.persistence.Id;
 @Data
 public class DBEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Integer shortkey;
     private String urls;
-    private String shortkey;
     private int count;
 }
