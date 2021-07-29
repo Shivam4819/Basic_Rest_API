@@ -50,7 +50,7 @@ If the data is not present it send 404 error code in the response. <br/></br>
         curl --location --request GET 'http://localhost:8080/list'
 
 
-###DATABASE:
+### DATABASE:
 
 - shortkey (Primary key, Integer)<br>
 - url (Varchar)<br>
