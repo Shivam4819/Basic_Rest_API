@@ -55,3 +55,6 @@ If the data is not present it send 404 error code in the response. <br/></br>
 - shortkey (Primary key, Integer)<br>
 - url (Varchar)<br>
 - count (Integer)
+
+### Architecture Diagram
+  https://github.com/Shivam4819/Nuchange-Inforatics/blob/master/src/architecture.png
