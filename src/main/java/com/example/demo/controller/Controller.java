@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static com.example.demo.utils.RestUrls.*;
+
 @RestController
 public class Controller {
 
@@ -18,7 +20,7 @@ public class Controller {
     private UrlsService urlsService;
 
     // this api store the url in database
-    @GetMapping("/storeurl")
+    @GetMapping(STORE_URL)
     public StoreUrlResponse storeurl(@RequestParam(name = "url") String url) {
         StoreUrlRequest storeUrlRequest = new StoreUrlRequest();
         storeUrlRequest.setUrls(url);
@@ -27,7 +29,7 @@ public class Controller {
     }
 
     // this api increment the count for url and return the short key as response
-    @GetMapping("/geturl")
+    @GetMapping(GET)
     public GetResponse get(@RequestParam(name = "url") String url) {
         StoreUrlRequest storeUrlRequest = new StoreUrlRequest();
         storeUrlRequest.setUrls(url);
@@ -35,7 +37,7 @@ public class Controller {
     }
 
     //this api return the count for the url as the response
-    @GetMapping("/count")
+    @GetMapping(COUNT)
     public CountResponse count(@RequestParam String url) {
         StoreUrlRequest storeUrlRequest = new StoreUrlRequest();
         storeUrlRequest.setUrls(url);
@@ -43,7 +45,7 @@ public class Controller {
     }
 
     //this api return all the data from database in JSON form
-    @GetMapping("/list")
+    @GetMapping(LIST)
     public List<ListResponse> list() {
         return urlsService.getAllData();
     }

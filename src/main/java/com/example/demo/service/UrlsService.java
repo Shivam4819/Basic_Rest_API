@@ -26,6 +26,7 @@ public class UrlsService {
         try {
             DBEntity dbEntity = new DBEntity();
             // setting value in DBEntity object which will store the data to database
+
             dbEntity.setUrls(str1.toLowerCase());
             dbEntity.setShortkey(str1.toLowerCase().hashCode());
             dbEntity.setCount(0);
