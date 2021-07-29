@@ -24,6 +24,9 @@ and do the required operation on the database.<br/></br>
 - Every layer sends the response object back to previous layer . So the reponse object is sended from the Dao
 to Service to Controller to FrontEnd
 
+### Architecture Diagram
+  https://github.com/Shivam4819/Nuchange-Inforatics/blob/master/src/architecture.png
+
 ### Api:
 
 1. **storeurl**:
@@ -49,12 +52,11 @@ If the data is not present it send 404 error code in the response. <br/></br>
 
         curl --location --request GET 'http://localhost:8080/list'
 
-
 ### Database Schema:
 
 - shortkey (Primary key, Integer)<br>
 - url (Varchar)<br>
 - count (Integer)
 
-### Architecture Diagram
-  https://github.com/Shivam4819/Nuchange-Inforatics/blob/master/src/architecture.png
+### Vedio Link
+  https://www.loom.com/share/08ce93e302e043878967776b7f7008fd
