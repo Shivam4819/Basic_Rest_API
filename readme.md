@@ -1,5 +1,4 @@
-# Nuchange Informatics Assignment
-
+# Basic Rest Apis
 This application is made on Spring boot and Mysql is used for Database. The application consist of four api.
 
 ### Pre requisite
@@ -57,6 +56,3 @@ If the data is not present it send 404 error code in the response. <br/></br>
 - shortkey (Primary key, Integer)<br>
 - url (Varchar)<br>
 - count (Integer)
-
-### Vedio Link
-  https://www.loom.com/share/08ce93e302e043878967776b7f7008fd
