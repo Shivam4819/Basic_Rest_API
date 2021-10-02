@@ -24,8 +24,8 @@ and do the required operation on the database.<br/></br>
 to Service to Controller to FrontEnd
 
 ### Architecture Diagram
-  https://github.com/Shivam4819/Nuchange-Inforatics/blob/master/src/architecture.png
-
+  https://github.com/Shivam4819/Basic_Rest_API/blob/master/src/architecture.png
+  
 ### Api:
 
 1. **storeurl**:
